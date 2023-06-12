@@ -24,7 +24,7 @@ const test = function(TimeZone) {
 
     localTime.SetTimeZone(TimeZone);
 
-    result[0] = localTime.Get("TimeZone")
+    result[0] = localTime.Get("TimeZone");
     result[1] = localTime.Get("SerialNumber");
     result[2] = localTime.Get("TimeDifference");
     result[3] = localTime.Get("City");
@@ -51,7 +51,7 @@ const test = function(TimeZone) {
     //現地時間の「タイムゾーン」、「年」、「月」、「日」、「時」、「分」、「秒」、「ミリ秒」を表示させる。
     names.forEach((t, u) => (console.log(t + ":" + blanks.slice(t.length) + result[u])));
 
-}
+};
 
 //localTime.SetLang("JP");
 
