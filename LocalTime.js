@@ -19,57 +19,57 @@ const LocalTime = (function() {
     //TimeZoneに設定可能な都市
     my.city = new Map();
 
-    my.city.set("LON", [0, "UTC + 0", "No.01", "イギリス \/ ロンドン", "The United Kingdom \/ London"]);
-    my.city.set("MAD", [1, "UTC + 1", "No.02", "スペイン \/ マドリード", "Spain \/ Madrid"]);
-    my.city.set("PAR", [1, "UTC + 1", "No.03", "フランス \/ パリ", "France \/ Paris"]);
-    my.city.set("ROM", [1, "UTC + 1", "No.04", "イタリア \/ ローマ", "Italy \/ Rome"]);
-    my.city.set("BER", [1, "UTC + 1", "No.05", "ドイツ \/ ベルリン", "Germany \/ Berlin"]);
+    my.city.set("LON", [0, "UTC + 0", "No.01", "イギリス / ロンドン", "The United Kingdom / London"]);
+    my.city.set("MAD", [1, "UTC + 1", "No.02", "スペイン / マドリード", "Spain / Madrid"]);
+    my.city.set("PAR", [1, "UTC + 1", "No.03", "フランス / パリ", "France / Paris"]);
+    my.city.set("ROM", [1, "UTC + 1", "No.04", "イタリア / ローマ", "Italy / Rome"]);
+    my.city.set("BER", [1, "UTC + 1", "No.05", "ドイツ / ベルリン", "Germany / Berlin"]);
 
-    my.city.set("CAI", [2, "UTC + 2", "No.06", "エジプト \/ カイロ", "Egypt \/ Cairo"]);
-    my.city.set("AHI", [2, "UTC + 2", "No.07", "ギリシャ \/ アテネ", "Greece \/ Athens"]);
-    my.city.set("JNB", [2, "UTC + 2", "No.08", "南アフリカ共和国 \/ ヨハネスブルグ", "South Africa \/ Johannesburg"]);
-    my.city.set("RUH", [3, "UTC + 3", "No.09", "サウジアラビア \/ リヤド", "Saudi Arabia \/ Riyadh"]);
-    my.city.set("THR", [3.5, "UTC + 3.5", "No.10", "イラン \/ テヘラン", "Iran \/ Tehran"]);
+    my.city.set("CAI", [2, "UTC + 2", "No.06", "エジプト / カイロ", "Egypt / Cairo"]);
+    my.city.set("AHI", [2, "UTC + 2", "No.07", "ギリシャ / アテネ", "Greece / Athens"]);
+    my.city.set("JNB", [2, "UTC + 2", "No.08", "南アフリカ共和国 / ヨハネスブルグ", "South Africa / Johannesburg"]);
+    my.city.set("RUH", [3, "UTC + 3", "No.09", "サウジアラビア / リヤド", "Saudi Arabia / Riyadh"]);
+    my.city.set("THR", [3.5, "UTC + 3.5", "No.10", "イラン / テヘラン", "Iran / Tehran"]);
 
-    my.city.set("DXB", [4, "UTC + 4", "No.11", "アラブ首長国連邦 \/ ドバイ", "United Arab Emirates \/ Dubai"]);
-    my.city.set("KBL", [4.5, "UTC + 4.5", "No.12", "アフガニスタン \/ カブール", "Afghanistan \/ Kabul"]);
-    my.city.set("KHI", [5, "UTC + 5", "No.13", "パキスタン \/ カラチ", "Pakistan \/ Karachi"]);
+    my.city.set("DXB", [4, "UTC + 4", "No.11", "アラブ首長国連邦 / ドバイ", "United Arab Emirates / Dubai"]);
+    my.city.set("KBL", [4.5, "UTC + 4.5", "No.12", "アフガニスタン / カブール", "Afghanistan / Kabul"]);
+    my.city.set("KHI", [5, "UTC + 5", "No.13", "パキスタン / カラチ", "Pakistan / Karachi"]);
     my.city.set("DEL", [5.5, "UTC + 5.5", "No.14", "インド / デリー", "India/Delhi"]);
-    my.city.set("DAC", [6, "UTC + 6", "No.15", "バングラデシュ \/ ダッカ", "Bangladesh \/ Dhaka"]);
+    my.city.set("DAC", [6, "UTC + 6", "No.15", "バングラデシュ / ダッカ", "Bangladesh / Dhaka"]);
 
-    my.city.set("RGN", [6.5, "UTC + 6.5", "No.16", "ミャンマー \/ ヤンゴン", "Myanmar \/ Yangon"]);
-    my.city.set("BKK", [7, "UTC + 7", "No.17", "タイ \/ バンコク", "Bangkok, Thailand"]);
-    my.city.set("SIN", [8, "UTC + 8", "No.18", "シンガポール \/ シンガポール", "Singapore \/ Singapore"]);
-    my.city.set("HKG", [8, "UTC + 8", "No.19", "香港特別行政区 \/ 香港", "Hong Kong \/ Hong Kong"]);
-    my.city.set("BJS", [8, "UTC + 8", "No.20", "中華人民共和国 \/ 北京", "China \/ Beijing"]);
+    my.city.set("RGN", [6.5, "UTC + 6.5", "No.16", "ミャンマー / ヤンゴン", "Myanmar / Yangon"]);
+    my.city.set("BKK", [7, "UTC + 7", "No.17", "タイ / バンコク", "Bangkok, Thailand"]);
+    my.city.set("SIN", [8, "UTC + 8", "No.18", "シンガポール / シンガポール", "Singapore / Singapore"]);
+    my.city.set("HKG", [8, "UTC + 8", "No.19", "香港特別行政区 / 香港", "Hong Kong / Hong Kong"]);
+    my.city.set("BJS", [8, "UTC + 8", "No.20", "中華人民共和国 / 北京", "China / Beijing"]);
 
-    my.city.set("TPE", [8, "UTC + 8", "No.21", "台湾地区 \/ 台北", "Taiwan \/ Taipei"]);
-    my.city.set("TYO", [9, "UTC + 9", "No.22", "日本 \/ 東京", "Japan \/ Tokyo"]);
-    my.city.set("SEL", [9, "UTC + 9", "No.23", "韓国 \/ ソウル", "South Korea \/ Seoul"]);
-    my.city.set("ADL", [9.5, "UTC + 9.5", "No.24", "オーストラリア \/ アデレード", "Australia \/ Adelaide"]);
-    my.city.set("SYD", [10, "UTC + 10", "No.25", "オーストラリア \/ シドニー", "Australia \/ Sydney"]);
+    my.city.set("TPE", [8, "UTC + 8", "No.21", "台湾地区 / 台北", "Taiwan / Taipei"]);
+    my.city.set("TYO", [9, "UTC + 9", "No.22", "日本 / 東京", "Japan / Tokyo"]);
+    my.city.set("SEL", [9, "UTC + 9", "No.23", "韓国 / ソウル", "South Korea / Seoul"]);
+    my.city.set("ADL", [9.5, "UTC + 9.5", "No.24", "オーストラリア / アデレード", "Australia / Adelaide"]);
+    my.city.set("SYD", [10, "UTC + 10", "No.25", "オーストラリア / シドニー", "Australia / Sydney"]);
 
-    my.city.set("NOU", [11, "UTC + 11", "No.26", "ニューカレドニア \/ ヌーメア", "New Caledonia \/ Noumea"]);
-    my.city.set("AKL", [12, "UTC + 12", "No.27", "ニュージーランド \/ オークランド", "New Zealand \/ Auckland"]);
-    my.city.set("SUV", [12, "UTC + 12", "No.28", "フィジー諸島共和国 \/ スバ", "The Republic of Fiji \/ sSuva"]);
+    my.city.set("NOU", [11, "UTC + 11", "No.26", "ニューカレドニア / ヌーメア", "New Caledonia / Noumea"]);
+    my.city.set("AKL", [12, "UTC + 12", "No.27", "ニュージーランド / オークランド", "New Zealand / Auckland"]);
+    my.city.set("SUV", [12, "UTC + 12", "No.28", "フィジー諸島共和国 / スバ", "The Republic of Fiji / Suva"]);
 
-    my.city.set("MDY", [-11, "UTC - 11", "No.29", "アメリカ合衆国 \/ ミッドウェー諸島", "The United States of America \/ Midway Atoll"]);
-    my.city.set("HNL", [-10, "UTC - 10", "No.30", "アメリカ合衆国 \/ ホノルル", "The United States of America \/ Honolulu"]);
-    my.city.set("ANC", [-9, "UTC - 9", "No.31", "アメリカ合衆国 \/ アンカレジ", "The United States of America \/ Anchorage"]);
-    my.city.set("YVR", [-8, "UTC - 8", "No.32", "カナダ \/ バンクーバー", "Canada \/ Vancouver"]);
-    my.city.set("LAX", [-8, "UTC - 8", "No.33", "アメリカ合衆国 \/ ロサンゼルス", "The United States of America \/ Los Angeles"]);
+    my.city.set("MDY", [-11, "UTC - 11", "No.29", "アメリカ合衆国 / ミッドウェー諸島", "The United States of America / Midway Atoll"]);
+    my.city.set("HNL", [-10, "UTC - 10", "No.30", "アメリカ合衆国 / ホノルル", "The United States of America / Honolulu"]);
+    my.city.set("ANC", [-9, "UTC - 9", "No.31", "アメリカ合衆国 / アンカレジ", "The United States of America / Anchorage"]);
+    my.city.set("YVR", [-8, "UTC - 8", "No.32", "カナダ / バンクーバー", "Canada / Vancouver"]);
+    my.city.set("LAX", [-8, "UTC - 8", "No.33", "アメリカ合衆国 / ロサンゼルス", "The United States of America / Los Angeles"]);
 
-    my.city.set("DEN", [-7, "UTC - 7", "No.34", "アメリカ合衆国 \/ デンバー", "The United States of America \/ Denver"]);
-    my.city.set("MEX", [-6, "UTC - 6", "No.35", "メキシコ \/ メキシコシティー", "Mexico \/ Mexico City"]);
-    my.city.set("CHI", [-6, "UTC - 6", "No.36", "アメリカ合衆国 \/ シカゴ", "The United States of America \/ Chicago"]);
-    my.city.set("NYC", [-5, "UTC - 5", "No.37", "アメリカ合衆国 \/ ニューヨーク", "The United States of America \/ New York"]);
-    my.city.set("YMQ", [-5, "UTC - 5", "No.38", "カナダ \/ モントリオール", "Canada \/ Montreal"]);
+    my.city.set("DEN", [-7, "UTC - 7", "No.34", "アメリカ合衆国 / デンバー", "The United States of America / Denver"]);
+    my.city.set("MEX", [-6, "UTC - 6", "No.35", "メキシコ / メキシコシティー", "Mexico / Mexico City"]);
+    my.city.set("CHI", [-6, "UTC - 6", "No.36", "アメリカ合衆国 / シカゴ", "The United States of America / Chicago"]);
+    my.city.set("NYC", [-5, "UTC - 5", "No.37", "アメリカ合衆国 / ニューヨーク", "The United States of America / New York"]);
+    my.city.set("YMQ", [-5, "UTC - 5", "No.38", "カナダ / モントリオール", "Canada / Montreal"]);
 
-    my.city.set("MAO", [-4, "UTC - 4", "No.39", "ブラジル \/ マナウス", "Brazil \/ Manaus"]);
-    my.city.set("BUE", [-3, "UTC - 3", "No.40", "アルゼンチン \/ ブエノスアイレス", "Argentina \/ Buenos Aires"]);
-    my.city.set("RIO", [-3, "UTC - 3", "No.41", "ブラジル \/ リオデジャネイロ", "Brazil \/ Rio de Janeiro"]);
-    my.city.set("FEN", [-2, "UTC - 2", "No.42", "ブラジル \/ フェルナンド・デ・ノローニャ諸島", "Brazil \/ Fernando de Noronha"]);
-    my.city.set("PDL", [-1, "UTC - 1", "No.43", "ポルトガル領 \/ アゾレス諸島", "Portuguese \/ Azores"]);
+    my.city.set("MAO", [-4, "UTC - 4", "No.39", "ブラジル / マナウス", "Brazil / Manaus"]);
+    my.city.set("BUE", [-3, "UTC - 3", "No.40", "アルゼンチン / ブエノスアイレス", "Argentina / Buenos Aires"]);
+    my.city.set("RIO", [-3, "UTC - 3", "No.41", "ブラジル / リオデジャネイロ", "Brazil / Rio de Janeiro"]);
+    my.city.set("FEN", [-2, "UTC - 2", "No.42", "ブラジル / フェルナンド・デ・ノローニャ諸島", "Brazil / Fernando de Noronha"]);
+    my.city.set("PDL", [-1, "UTC - 1", "No.43", "ポルトガル領 / アゾレス諸島", "Portuguese / Azores"]);
 
     //時差の計算をする
     my.Calculate = function() {
