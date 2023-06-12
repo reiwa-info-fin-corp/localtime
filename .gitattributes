@@ -1,0 +1,5 @@
+# .gitattributes
+* text=auto
+
+# package.json を LF 改行コードで保持する
+package.json eol=lf
