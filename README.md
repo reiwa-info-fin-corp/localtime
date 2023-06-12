@@ -67,6 +67,7 @@ localTime.Get("Milliseconds");
 ## Parameters 
 The SetTimeZone method can be set to the following cities.
 You can choose only one of 43 cities.
+
 (SetTimeZoneメソッドで設定できる都市は、以下の通りです。43都市のうち、1都市のみ選択可能です。)
 ```
 LON
@@ -116,8 +117,10 @@ PDL
 
 
 ## Sample Code
-You can run the sample code.
+You can run the Sample Code.
+
 (あなたはサンプルコードを実行できる。)
+
 ```shell
 〇〇\node_modules\@reiwa_info_fin_corp\localtime>node LocalTime_sample.js
 [UTC] 2023-06-08(Thu) 10:52:56.579
