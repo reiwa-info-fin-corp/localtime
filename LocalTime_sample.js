@@ -1,11 +1,6 @@
 const localTime = require("./LocalTime.js");
-const whitespace = 2;
-const result = [];
-const names = [];
 
-let stringLengthMax = 0;
-let buf = " ";
-let blanks = "";
+const names = [];
 
 names[0] = "TimeZone";
 names[1] = "SerialNumber";
@@ -22,6 +17,12 @@ names[11] = "Milliseconds";
 
 const test = function(TimeZone) {
 
+    let buf = " ";
+    let blanks = "";
+    let stringLengthMax = 0;
+    const whitespace = 2;
+    const result = [];
+    
     localTime.SetTimeZone(TimeZone);
 
     result[0] = localTime.Get("TimeZone");
