@@ -23,8 +23,8 @@ const localTime = require("@reiwa_info_fin_corp/localtime");
 
 ## To use
 
-Whenever the SetTimeZone, GetUTCTimeString, or GetLocalTimeString method is executed, a process is performed in the LocalTime module to obtain the UTC time and the local time of the set city.
-On the other hand, when the Get method is executed, no processing is performed in the LocalTime module to obtain UTC time and the local time of the city.  
+Whenever the SetTimeZone, GetUTCTimeString, or GetLocalTimeString method is executed, a process is performed in the LocalTime module to obtain the UTC time and the local time of the set city.  
+On the other hand, when the Get method is executed, no processing is performed in the LocalTime module to obtain UTC time and the local time of the city.
 When the Get method is executed, the year, month, day, weekday, hour, minute, second, and millisecond of the local time can be obtained.
 This local time is exactly the same local time obtained when executing the SetTimeZone method or the GetUTCTimeString method or the GetLocalTimeString method before executing the Get method.
 
