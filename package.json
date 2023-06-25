@@ -1,6 +1,6 @@
 {
    "name": "@reiwa_info_fin_corp/localtime",
-   "version": "1.0.7",
+   "version": "1.0.8",
    "description": "A package for working with localtime and timezones.",
    "main": "LocalTime.js",
    "repository": {
