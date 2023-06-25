@@ -2,14 +2,14 @@
 When using the Date construct in Node.js to generate a date object, it is not possible to set an arbitrary time zone.
 This means that the date and time will differ depending on the environment in which the date object is generated using the Date construct.
 Therefore, we will create a LocalTime module that displays the local time in an arbitrarily set time zone, no matter what environment it is executed in.
-The time zone is selected from 43 different city names.
-The way it works is that UTC(Coordinated Universal Time) will have the same value no matter what environment it is run in, so the UTC value and the city's time difference value are used to find the local time for the set city name.
+The time zone is selected from 43 different cities.
+The way it works is that UTC(Coordinated Universal Time) will have the same value no matter what environment it is run in, so the UTC value and the city's time difference value are used to find the local time for the set city.
 
 (Node.jsでDateコンストラクを使ってdateオブジェクトを生成するときに任意のタイムゾーンを設定できない。
 つまり、Dateコンストラクを使ってdateオブジェクトを生成する環境によって日時が異なることを意味する。
 そこで今回、どんな環境で実行しても任意で設定したタイムゾーンの現地時間を表示するLocalTimeモジュールを作る。
-タイムゾーンは、43種類の都市名から選択する。
-仕組みとして、どんな環境で実行してもUTC(協定世界時)は同じ値になるため、UTCの値と都市の時差の値を使用して、設定した都市名の現地時間を求める。)
+タイムゾーンは、43種類の都市から選択する。
+仕組みとして、どんな環境で実行してもUTC(協定世界時)は同じ値になるため、UTCの値と都市の時差の値を使用して、設定した都市の現地時間を求める。)
 
 ## Install it via npm
 ```shell
