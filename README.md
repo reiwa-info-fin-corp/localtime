@@ -132,7 +132,7 @@ You can run the Sample Code.
 ```shell
 〇〇\node_modules\@reiwa_info_fin_corp\localtime>npm test
 
-> @reiwa_info_fin_corp/localtime@1.0.6 test
+> @reiwa_info_fin_corp/localtime@1.0.7 test
 > node LocalTime_sample.js
 
 [UTC] 2023-06-25(Sun) 07:34:36.188
