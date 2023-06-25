@@ -24,12 +24,12 @@ const localTime = require("@reiwa_info_fin_corp/localtime");
 ## To use
 
 Whenever the SetTimeZone, GetUTCTimeString, or GetLocalTimeString method is executed, a process is performed in the LocalTime module to obtain the UTC time and the local time of the set city.
-On the other hand, when the Get method is executed, no processing is performed in the LocalTime module to obtain UTC time and the local time of the city.
-When the Get method is executed, the year, month, day, weekday, hour, minute, second, and millisecond of the local time obtained when the SetTimeZone, GetUTCTimeString, and GetLocalTimeString methods are executed can be obtained.
+On the other hand, when the Get method is executed, no processing is performed in the LocalTime module to obtain UTC time and the local time of the city.  
+When the Get method is executed, the year, month, day, weekday, hour, minute, second, and millisecond of the local time can be obtained.
+This local time is exactly the same local time obtained when executing the SetTimeZone method or the GetUTCTimeString method or the GetLocalTimeString method before executing the Get method.
 
 (SetTimeZoneメソッド、GetUTCTimeStringメソッド、GetLocalTimeStringメソッドを実行する際は、必ずLocalTimeモジュール内でUTC時間と設定した都市の現地時間を求める処理が実行される。  
-一方、Getメソッドを実行する際は、LocalTimeモジュール内でUTC時間と都市の現地時間を求める処理は一切行われない。
-Getメソッドを実行すると、SetTimeZoneメソッド、GetUTCTimeStringメソッド、GetLocalTimeStringメソッドが実行時に求めた現地時間の年、月、日、曜日、時、分、秒、ミリ秒が取得可能である。)
+一方、Getメソッドを実行する際は、LocalTimeモジュール内でUTC時間と都市の現地時間を求める処理は一切行われない。Getメソッドを実行すると、現地時刻の年、月、日、曜日、時、分、秒、ミリ秒を取得することができる。この現地時刻は、Getメソッド実行前に、SetTimeZoneメソッドまたはGetUTCTimeStringメソッドまたはGetLocalTimeStringメソッドを実行時に求めた現地時刻と全く同じ現地時刻である。
 
 ```shell
 //Set the city.
@@ -132,7 +132,7 @@ You can run the Sample Code.
 ```shell
 〇〇\node_modules\@reiwa_info_fin_corp\localtime>npm test
 
-> @reiwa_info_fin_corp/localtime@1.0.4 test
+> @reiwa_info_fin_corp/localtime@1.0.6 test
 > node LocalTime_sample.js
 
 [UTC] 2023-06-25(Sun) 07:34:36.188
