@@ -135,8 +135,8 @@ You can run the Sample Code.
 > @reiwa_info_fin_corp/localtime@〇.〇.〇 test
 > node LocalTime_sample.js
 
-[UTC] 2023-06-25(Sun) 07:34:36.188
-[LON] 2023-06-25(Sun) 07:34:36.193
+[UTC] 2023-06-25(Sun) 22:09:03.136
+[LON] 2023-06-25(Sun) 22:09:03.139
 TimeZone:        LON
 SerialNumber:    No.01
 TimeDifference:  UTC + 0
@@ -145,12 +145,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           07
-Minutes:         34
-Seconds:         36
-Milliseconds:    188
-[UTC] 2023-06-25(Sun) 07:34:36.196
-[MAD] 2023-06-25(Sun) 08:34:36.196
+Hours:           22
+Minutes:         09
+Seconds:         03
+Milliseconds:    136
+[UTC] 2023-06-25(Sun) 22:09:03.140
+[MAD] 2023-06-25(Sun) 23:09:03.140
 TimeZone:        MAD
 SerialNumber:    No.02
 TimeDifference:  UTC + 1
@@ -159,12 +159,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           08
-Minutes:         34
-Seconds:         36
-Milliseconds:    195
-[UTC] 2023-06-25(Sun) 07:34:36.203
-[PAR] 2023-06-25(Sun) 08:34:36.203
+Hours:           23
+Minutes:         09
+Seconds:         03
+Milliseconds:    140
+[UTC] 2023-06-25(Sun) 22:09:03.141
+[PAR] 2023-06-25(Sun) 23:09:03.141
 TimeZone:        PAR
 SerialNumber:    No.03
 TimeDifference:  UTC + 1
@@ -173,12 +173,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           08
-Minutes:         34
-Seconds:         36
-Milliseconds:    203
-[UTC] 2023-06-25(Sun) 07:34:36.209
-[ROM] 2023-06-25(Sun) 08:34:36.209
+Hours:           23
+Minutes:         09
+Seconds:         03
+Milliseconds:    141
+[UTC] 2023-06-25(Sun) 22:09:03.141
+[ROM] 2023-06-25(Sun) 23:09:03.141
 TimeZone:        ROM
 SerialNumber:    No.04
 TimeDifference:  UTC + 1
@@ -187,12 +187,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           08
-Minutes:         34
-Seconds:         36
-Milliseconds:    208
-[UTC] 2023-06-25(Sun) 07:34:36.217
-[BER] 2023-06-25(Sun) 08:34:36.217
+Hours:           23
+Minutes:         09
+Seconds:         03
+Milliseconds:    141
+[UTC] 2023-06-25(Sun) 22:09:03.142
+[BER] 2023-06-25(Sun) 23:09:03.142
 TimeZone:        BER
 SerialNumber:    No.05
 TimeDifference:  UTC + 1
@@ -201,404 +201,404 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           08
-Minutes:         34
-Seconds:         36
-Milliseconds:    217
-[UTC] 2023-06-25(Sun) 07:34:36.223
-[CAI] 2023-06-25(Sun) 09:34:36.224
+Hours:           23
+Minutes:         09
+Seconds:         03
+Milliseconds:    142
+[UTC] 2023-06-25(Sun) 22:09:03.142
+[CAI] 2023-06-26(Mon) 00:09:03.142
 TimeZone:        CAI
 SerialNumber:    No.06
 TimeDifference:  UTC + 2
 City:            Egypt / Cairo
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           09
-Minutes:         34
-Seconds:         36
-Milliseconds:    223
-[UTC] 2023-06-25(Sun) 07:34:36.232
-[AHI] 2023-06-25(Sun) 09:34:36.232
+Date:            26
+Day:             Mon
+Hours:           00
+Minutes:         09
+Seconds:         03
+Milliseconds:    142
+[UTC] 2023-06-25(Sun) 22:09:03.143
+[AHI] 2023-06-26(Mon) 00:09:03.143
 TimeZone:        AHI
 SerialNumber:    No.07
 TimeDifference:  UTC + 2
 City:            Greece / Athens
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           09
-Minutes:         34
-Seconds:         36
-Milliseconds:    232
-[UTC] 2023-06-25(Sun) 07:34:36.238
-[JNB] 2023-06-25(Sun) 09:34:36.238
+Date:            26
+Day:             Mon
+Hours:           00
+Minutes:         09
+Seconds:         03
+Milliseconds:    142
+[UTC] 2023-06-25(Sun) 22:09:03.143
+[JNB] 2023-06-26(Mon) 00:09:03.143
 TimeZone:        JNB
 SerialNumber:    No.08
 TimeDifference:  UTC + 2
 City:            South Africa / Johannesburg
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           09
-Minutes:         34
-Seconds:         36
-Milliseconds:    238
-[UTC] 2023-06-25(Sun) 07:34:36.244
-[RUH] 2023-06-25(Sun) 10:34:36.244
+Date:            26
+Day:             Mon
+Hours:           00
+Minutes:         09
+Seconds:         03
+Milliseconds:    143
+[UTC] 2023-06-25(Sun) 22:09:03.144
+[RUH] 2023-06-26(Mon) 01:09:03.144
 TimeZone:        RUH
 SerialNumber:    No.09
 TimeDifference:  UTC + 3
 City:            Saudi Arabia / Riyadh
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           10
-Minutes:         34
-Seconds:         36
-Milliseconds:    244
-[UTC] 2023-06-25(Sun) 07:34:36.253
-[THR] 2023-06-25(Sun) 11:04:36.253
+Date:            26
+Day:             Mon
+Hours:           01
+Minutes:         09
+Seconds:         03
+Milliseconds:    143
+[UTC] 2023-06-25(Sun) 22:09:03.144
+[THR] 2023-06-26(Mon) 01:39:03.144
 TimeZone:        THR
 SerialNumber:    No.10
 TimeDifference:  UTC + 3.5
 City:            Iran / Tehran
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           11
-Minutes:         04
-Seconds:         36
-Milliseconds:    253
-[UTC] 2023-06-25(Sun) 07:34:36.259
-[DXB] 2023-06-25(Sun) 11:34:36.259
+Date:            26
+Day:             Mon
+Hours:           01
+Minutes:         39
+Seconds:         03
+Milliseconds:    144
+[UTC] 2023-06-25(Sun) 22:09:03.144
+[DXB] 2023-06-26(Mon) 02:09:03.144
 TimeZone:        DXB
 SerialNumber:    No.11
 TimeDifference:  UTC + 4
 City:            United Arab Emirates / Dubai
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           11
-Minutes:         34
-Seconds:         36
-Milliseconds:    258
-[UTC] 2023-06-25(Sun) 07:34:36.266
-[KBL] 2023-06-25(Sun) 12:04:36.267
+Date:            26
+Day:             Mon
+Hours:           02
+Minutes:         09
+Seconds:         03
+Milliseconds:    144
+[UTC] 2023-06-25(Sun) 22:09:03.145
+[KBL] 2023-06-26(Mon) 02:39:03.145
 TimeZone:        KBL
 SerialNumber:    No.12
 TimeDifference:  UTC + 4.5
 City:            Afghanistan / Kabul
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           12
-Minutes:         04
-Seconds:         36
-Milliseconds:    266
-[UTC] 2023-06-25(Sun) 07:34:36.272
-[KHI] 2023-06-25(Sun) 12:34:36.273
+Date:            26
+Day:             Mon
+Hours:           02
+Minutes:         39
+Seconds:         03
+Milliseconds:    145
+[UTC] 2023-06-25(Sun) 22:09:03.146
+[KHI] 2023-06-26(Mon) 03:09:03.146
 TimeZone:        KHI
 SerialNumber:    No.13
 TimeDifference:  UTC + 5
 City:            Pakistan / Karachi
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           12
-Minutes:         34
-Seconds:         36
-Milliseconds:    272
-[UTC] 2023-06-25(Sun) 07:34:36.280
-[DEL] 2023-06-25(Sun) 13:04:36.280
+Date:            26
+Day:             Mon
+Hours:           03
+Minutes:         09
+Seconds:         03
+Milliseconds:    145
+[UTC] 2023-06-25(Sun) 22:09:03.146
+[DEL] 2023-06-26(Mon) 03:39:03.146
 TimeZone:        DEL
 SerialNumber:    No.14
 TimeDifference:  UTC + 5.5
 City:            India/Delhi
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           13
-Minutes:         04
-Seconds:         36
-Milliseconds:    280
-[UTC] 2023-06-25(Sun) 07:34:36.286
-[DAC] 2023-06-25(Sun) 13:34:36.287
+Date:            26
+Day:             Mon
+Hours:           03
+Minutes:         39
+Seconds:         03
+Milliseconds:    146
+[UTC] 2023-06-25(Sun) 22:09:03.146
+[DAC] 2023-06-26(Mon) 04:09:03.146
 TimeZone:        DAC
 SerialNumber:    No.15
 TimeDifference:  UTC + 6
 City:            Bangladesh / Dhaka
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           13
-Minutes:         34
-Seconds:         36
-Milliseconds:    286
-[UTC] 2023-06-25(Sun) 07:34:36.292
-[RGN] 2023-06-25(Sun) 14:04:36.292
+Date:            26
+Day:             Mon
+Hours:           04
+Minutes:         09
+Seconds:         03
+Milliseconds:    146
+[UTC] 2023-06-25(Sun) 22:09:03.147
+[RGN] 2023-06-26(Mon) 04:39:03.147
 TimeZone:        RGN
 SerialNumber:    No.16
 TimeDifference:  UTC + 6.5
 City:            Myanmar / Yangon
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           14
-Minutes:         04
-Seconds:         36
-Milliseconds:    292
-[UTC] 2023-06-25(Sun) 07:34:36.300
-[BKK] 2023-06-25(Sun) 14:34:36.300
+Date:            26
+Day:             Mon
+Hours:           04
+Minutes:         39
+Seconds:         03
+Milliseconds:    147
+[UTC] 2023-06-25(Sun) 22:09:03.147
+[BKK] 2023-06-26(Mon) 05:09:03.147
 TimeZone:        BKK
 SerialNumber:    No.17
 TimeDifference:  UTC + 7
 City:            Bangkok, Thailand
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           14
-Minutes:         34
-Seconds:         36
-Milliseconds:    300
-[UTC] 2023-06-25(Sun) 07:34:36.306
-[SIN] 2023-06-25(Sun) 15:34:36.306
+Date:            26
+Day:             Mon
+Hours:           05
+Minutes:         09
+Seconds:         03
+Milliseconds:    147
+[UTC] 2023-06-25(Sun) 22:09:03.147
+[SIN] 2023-06-26(Mon) 06:09:03.147
 TimeZone:        SIN
 SerialNumber:    No.18
 TimeDifference:  UTC + 8
 City:            Singapore / Singapore
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           15
-Minutes:         34
-Seconds:         36
-Milliseconds:    306
-[UTC] 2023-06-25(Sun) 07:34:36.314
-[HKG] 2023-06-25(Sun) 15:34:36.314
+Date:            26
+Day:             Mon
+Hours:           06
+Minutes:         09
+Seconds:         03
+Milliseconds:    147
+[UTC] 2023-06-25(Sun) 22:09:03.148
+[HKG] 2023-06-26(Mon) 06:09:03.148
 TimeZone:        HKG
 SerialNumber:    No.19
 TimeDifference:  UTC + 8
 City:            Hong Kong / Hong Kong
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           15
-Minutes:         34
-Seconds:         36
-Milliseconds:    314
-[UTC] 2023-06-25(Sun) 07:34:36.320
-[BJS] 2023-06-25(Sun) 15:34:36.320
+Date:            26
+Day:             Mon
+Hours:           06
+Minutes:         09
+Seconds:         03
+Milliseconds:    147
+[UTC] 2023-06-25(Sun) 22:09:03.148
+[BJS] 2023-06-26(Mon) 06:09:03.148
 TimeZone:        BJS
 SerialNumber:    No.20
 TimeDifference:  UTC + 8
 City:            China / Beijing
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           15
-Minutes:         34
-Seconds:         36
-Milliseconds:    320
-[UTC] 2023-06-25(Sun) 07:34:36.327
-[TPE] 2023-06-25(Sun) 15:34:36.328
+Date:            26
+Day:             Mon
+Hours:           06
+Minutes:         09
+Seconds:         03
+Milliseconds:    148
+[UTC] 2023-06-25(Sun) 22:09:03.148
+[TPE] 2023-06-26(Mon) 06:09:03.148
 TimeZone:        TPE
 SerialNumber:    No.21
 TimeDifference:  UTC + 8
 City:            Taiwan / Taipei
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           15
-Minutes:         34
-Seconds:         36
-Milliseconds:    327
-[UTC] 2023-06-25(Sun) 07:34:36.333
-[TYO] 2023-06-25(Sun) 16:34:36.334
+Date:            26
+Day:             Mon
+Hours:           06
+Minutes:         09
+Seconds:         03
+Milliseconds:    148
+[UTC] 2023-06-25(Sun) 22:09:03.148
+[TYO] 2023-06-26(Mon) 07:09:03.148
 TimeZone:        TYO
 SerialNumber:    No.22
 TimeDifference:  UTC + 9
 City:            Japan / Tokyo
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           16
-Minutes:         34
-Seconds:         36
-Milliseconds:    333
-[UTC] 2023-06-25(Sun) 07:34:36.337
-[SEL] 2023-06-25(Sun) 16:34:36.337
+Date:            26
+Day:             Mon
+Hours:           07
+Minutes:         09
+Seconds:         03
+Milliseconds:    148
+[UTC] 2023-06-25(Sun) 22:09:03.149
+[SEL] 2023-06-26(Mon) 07:09:03.149
 TimeZone:        SEL
 SerialNumber:    No.23
 TimeDifference:  UTC + 9
 City:            South Korea / Seoul
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           16
-Minutes:         34
-Seconds:         36
-Milliseconds:    337
-[UTC] 2023-06-25(Sun) 07:34:36.338
-[ADL] 2023-06-25(Sun) 17:04:36.338
+Date:            26
+Day:             Mon
+Hours:           07
+Minutes:         09
+Seconds:         03
+Milliseconds:    149
+[UTC] 2023-06-25(Sun) 22:09:03.149
+[ADL] 2023-06-26(Mon) 07:39:03.149
 TimeZone:        ADL
 SerialNumber:    No.24
 TimeDifference:  UTC + 9.5
 City:            Australia / Adelaide
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           17
-Minutes:         04
-Seconds:         36
-Milliseconds:    338
-[UTC] 2023-06-25(Sun) 07:34:36.339
-[SYD] 2023-06-25(Sun) 17:34:36.339
+Date:            26
+Day:             Mon
+Hours:           07
+Minutes:         39
+Seconds:         03
+Milliseconds:    149
+[UTC] 2023-06-25(Sun) 22:09:03.149
+[SYD] 2023-06-26(Mon) 08:09:03.149
 TimeZone:        SYD
 SerialNumber:    No.25
 TimeDifference:  UTC + 10
 City:            Australia / Sydney
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           17
-Minutes:         34
-Seconds:         36
-Milliseconds:    339
-[UTC] 2023-06-25(Sun) 07:34:36.343
-[NOU] 2023-06-25(Sun) 18:34:36.343
+Date:            26
+Day:             Mon
+Hours:           08
+Minutes:         09
+Seconds:         03
+Milliseconds:    149
+[UTC] 2023-06-25(Sun) 22:09:03.150
+[NOU] 2023-06-26(Mon) 09:09:03.150
 TimeZone:        NOU
 SerialNumber:    No.26
 TimeDifference:  UTC + 11
 City:            New Caledonia / Noumea
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           18
-Minutes:         34
-Seconds:         36
-Milliseconds:    343
-[UTC] 2023-06-25(Sun) 07:34:36.344
-[AKL] 2023-06-25(Sun) 19:34:36.344
+Date:            26
+Day:             Mon
+Hours:           09
+Minutes:         09
+Seconds:         03
+Milliseconds:    149
+[UTC] 2023-06-25(Sun) 22:09:03.150
+[AKL] 2023-06-26(Mon) 10:09:03.150
 TimeZone:        AKL
 SerialNumber:    No.27
 TimeDifference:  UTC + 12
 City:            New Zealand / Auckland
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           19
-Minutes:         34
-Seconds:         36
-Milliseconds:    344
-[UTC] 2023-06-25(Sun) 07:34:36.345
-[SUV] 2023-06-25(Sun) 19:34:36.345
+Date:            26
+Day:             Mon
+Hours:           10
+Minutes:         09
+Seconds:         03
+Milliseconds:    150
+[UTC] 2023-06-25(Sun) 22:09:03.151
+[SUV] 2023-06-26(Mon) 10:09:03.151
 TimeZone:        SUV
 SerialNumber:    No.28
 TimeDifference:  UTC + 12
 City:            The Republic of Fiji / Suva
 FullYear:        2023
 Month:           06
-Date:            25
-Day:             Sun
-Hours:           19
-Minutes:         34
-Seconds:         36
-Milliseconds:    345
-[UTC] 2023-06-25(Sun) 07:34:36.346
-[MDY] 2023-06-24(Sat) 20:34:36.346
+Date:            26
+Day:             Mon
+Hours:           10
+Minutes:         09
+Seconds:         03
+Milliseconds:    151
+[UTC] 2023-06-25(Sun) 22:09:03.151
+[MDY] 2023-06-25(Sun) 11:09:03.151
 TimeZone:        MDY
 SerialNumber:    No.29
 TimeDifference:  UTC - 11
 City:            The United States of America / Midway Atoll
 FullYear:        2023
 Month:           06
-Date:            24
-Day:             Sat
-Hours:           20
-Minutes:         34
-Seconds:         36
-Milliseconds:    346
-[UTC] 2023-06-25(Sun) 07:34:36.347
-[HNL] 2023-06-24(Sat) 21:34:36.347
+Date:            25
+Day:             Sun
+Hours:           11
+Minutes:         09
+Seconds:         03
+Milliseconds:    151
+[UTC] 2023-06-25(Sun) 22:09:03.151
+[HNL] 2023-06-25(Sun) 12:09:03.151
 TimeZone:        HNL
 SerialNumber:    No.30
 TimeDifference:  UTC - 10
 City:            The United States of America / Honolulu
 FullYear:        2023
 Month:           06
-Date:            24
-Day:             Sat
-Hours:           21
-Minutes:         34
-Seconds:         36
-Milliseconds:    347
-[UTC] 2023-06-25(Sun) 07:34:36.348
-[ANC] 2023-06-24(Sat) 22:34:36.348
+Date:            25
+Day:             Sun
+Hours:           12
+Minutes:         09
+Seconds:         03
+Milliseconds:    151
+[UTC] 2023-06-25(Sun) 22:09:03.151
+[ANC] 2023-06-25(Sun) 13:09:03.151
 TimeZone:        ANC
 SerialNumber:    No.31
 TimeDifference:  UTC - 9
 City:            The United States of America / Anchorage
 FullYear:        2023
 Month:           06
-Date:            24
-Day:             Sat
-Hours:           22
-Minutes:         34
-Seconds:         36
-Milliseconds:    348
-[UTC] 2023-06-25(Sun) 07:34:36.349
-[YVR] 2023-06-24(Sat) 23:34:36.349
+Date:            25
+Day:             Sun
+Hours:           13
+Minutes:         09
+Seconds:         03
+Milliseconds:    151
+[UTC] 2023-06-25(Sun) 22:09:03.152
+[YVR] 2023-06-25(Sun) 14:09:03.152
 TimeZone:        YVR
 SerialNumber:    No.32
 TimeDifference:  UTC - 8
 City:            Canada / Vancouver
 FullYear:        2023
 Month:           06
-Date:            24
-Day:             Sat
-Hours:           23
-Minutes:         34
-Seconds:         36
-Milliseconds:    349
-[UTC] 2023-06-25(Sun) 07:34:36.350
-[LAX] 2023-06-24(Sat) 23:34:36.350
+Date:            25
+Day:             Sun
+Hours:           14
+Minutes:         09
+Seconds:         03
+Milliseconds:    152
+[UTC] 2023-06-25(Sun) 22:09:03.152
+[LAX] 2023-06-25(Sun) 14:09:03.152
 TimeZone:        LAX
 SerialNumber:    No.33
 TimeDifference:  UTC - 8
 City:            The United States of America / Los Angeles
 FullYear:        2023
 Month:           06
-Date:            24
-Day:             Sat
-Hours:           23
-Minutes:         34
-Seconds:         36
-Milliseconds:    350
-[UTC] 2023-06-25(Sun) 07:34:36.351
-[DEN] 2023-06-25(Sun) 00:34:36.351
+Date:            25
+Day:             Sun
+Hours:           14
+Minutes:         09
+Seconds:         03
+Milliseconds:    152
+[UTC] 2023-06-25(Sun) 22:09:03.152
+[DEN] 2023-06-25(Sun) 15:09:03.152
 TimeZone:        DEN
 SerialNumber:    No.34
 TimeDifference:  UTC - 7
@@ -607,12 +607,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           00
-Minutes:         34
-Seconds:         36
-Milliseconds:    351
-[UTC] 2023-06-25(Sun) 07:34:36.352
-[MEX] 2023-06-25(Sun) 01:34:36.352
+Hours:           15
+Minutes:         09
+Seconds:         03
+Milliseconds:    152
+[UTC] 2023-06-25(Sun) 22:09:03.152
+[MEX] 2023-06-25(Sun) 16:09:03.153
 TimeZone:        MEX
 SerialNumber:    No.35
 TimeDifference:  UTC - 6
@@ -621,12 +621,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           01
-Minutes:         34
-Seconds:         36
-Milliseconds:    352
-[UTC] 2023-06-25(Sun) 07:34:36.353
-[CHI] 2023-06-25(Sun) 01:34:36.353
+Hours:           16
+Minutes:         09
+Seconds:         03
+Milliseconds:    152
+[UTC] 2023-06-25(Sun) 22:09:03.153
+[CHI] 2023-06-25(Sun) 16:09:03.153
 TimeZone:        CHI
 SerialNumber:    No.36
 TimeDifference:  UTC - 6
@@ -635,12 +635,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           01
-Minutes:         34
-Seconds:         36
-Milliseconds:    353
-[UTC] 2023-06-25(Sun) 07:34:36.354
-[NYC] 2023-06-25(Sun) 02:34:36.354
+Hours:           16
+Minutes:         09
+Seconds:         03
+Milliseconds:    153
+[UTC] 2023-06-25(Sun) 22:09:03.153
+[NYC] 2023-06-25(Sun) 17:09:03.153
 TimeZone:        NYC
 SerialNumber:    No.37
 TimeDifference:  UTC - 5
@@ -649,12 +649,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           02
-Minutes:         34
-Seconds:         36
-Milliseconds:    354
-[UTC] 2023-06-25(Sun) 07:34:36.355
-[YMQ] 2023-06-25(Sun) 02:34:36.355
+Hours:           17
+Minutes:         09
+Seconds:         03
+Milliseconds:    153
+[UTC] 2023-06-25(Sun) 22:09:03.153
+[YMQ] 2023-06-25(Sun) 17:09:03.153
 TimeZone:        YMQ
 SerialNumber:    No.38
 TimeDifference:  UTC - 5
@@ -663,12 +663,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           02
-Minutes:         34
-Seconds:         36
-Milliseconds:    355
-[UTC] 2023-06-25(Sun) 07:34:36.356
-[MAO] 2023-06-25(Sun) 03:34:36.356
+Hours:           17
+Minutes:         09
+Seconds:         03
+Milliseconds:    153
+[UTC] 2023-06-25(Sun) 22:09:03.154
+[MAO] 2023-06-25(Sun) 18:09:03.154
 TimeZone:        MAO
 SerialNumber:    No.39
 TimeDifference:  UTC - 4
@@ -677,12 +677,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           03
-Minutes:         34
-Seconds:         36
-Milliseconds:    356
-[UTC] 2023-06-25(Sun) 07:34:36.359
-[BUE] 2023-06-25(Sun) 04:34:36.359
+Hours:           18
+Minutes:         09
+Seconds:         03
+Milliseconds:    154
+[UTC] 2023-06-25(Sun) 22:09:03.154
+[BUE] 2023-06-25(Sun) 19:09:03.154
 TimeZone:        BUE
 SerialNumber:    No.40
 TimeDifference:  UTC - 3
@@ -691,12 +691,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           04
-Minutes:         34
-Seconds:         36
-Milliseconds:    359
-[UTC] 2023-06-25(Sun) 07:34:36.360
-[RIO] 2023-06-25(Sun) 04:34:36.360
+Hours:           19
+Minutes:         09
+Seconds:         03
+Milliseconds:    154
+[UTC] 2023-06-25(Sun) 22:09:03.154
+[RIO] 2023-06-25(Sun) 19:09:03.154
 TimeZone:        RIO
 SerialNumber:    No.41
 TimeDifference:  UTC - 3
@@ -705,12 +705,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           04
-Minutes:         34
-Seconds:         36
-Milliseconds:    360
-[UTC] 2023-06-25(Sun) 07:34:36.361
-[FEN] 2023-06-25(Sun) 05:34:36.361
+Hours:           19
+Minutes:         09
+Seconds:         03
+Milliseconds:    154
+[UTC] 2023-06-25(Sun) 22:09:03.155
+[FEN] 2023-06-25(Sun) 20:09:03.155
 TimeZone:        FEN
 SerialNumber:    No.42
 TimeDifference:  UTC - 2
@@ -719,12 +719,12 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           05
-Minutes:         34
-Seconds:         36
-Milliseconds:    361
-[UTC] 2023-06-25(Sun) 07:34:36.362
-[PDL] 2023-06-25(Sun) 06:34:36.362
+Hours:           20
+Minutes:         09
+Seconds:         03
+Milliseconds:    154
+[UTC] 2023-06-25(Sun) 22:09:03.155
+[PDL] 2023-06-25(Sun) 21:09:03.155
 TimeZone:        PDL
 SerialNumber:    No.43
 TimeDifference:  UTC - 1
@@ -733,10 +733,10 @@ FullYear:        2023
 Month:           06
 Date:            25
 Day:             Sun
-Hours:           06
-Minutes:         34
-Seconds:         36
-Milliseconds:    362
+Hours:           21
+Minutes:         09
+Seconds:         03
+Milliseconds:    155
 --AvailableCities(43) begin--
 LON (UTC + 0):   No.01 The United Kingdom / London
 MAD (UTC + 1):   No.02 Spain / Madrid
