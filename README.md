@@ -27,7 +27,7 @@ Whenever the SetTimeZone, GetUTCTimeString, or GetLocalTimeString method is exec
 On the other hand, when the Get method is executed, no processing is performed in the LocalTime module to obtain UTC time and the local time of the city.
 When the Get method is executed, the year, month, day, weekday, hour, minute, second, and millisecond of the local time obtained when the SetTimeZone, GetUTCTimeString, and GetLocalTimeString methods are executed can be obtained.
 
-(SetTimeZoneメソッド、GetUTCTimeStringメソッド、GetLocalTimeStringメソッドを実行する際は、必ずLocalTimeモジュール内でUTC時間と設定した都市の現地時間を求める処理が実行される。)
+(SetTimeZoneメソッド、GetUTCTimeStringメソッド、GetLocalTimeStringメソッドを実行する際は、必ずLocalTimeモジュール内でUTC時間と設定した都市の現地時間を求める処理が実行される。  
 一方、Getメソッドを実行する際は、LocalTimeモジュール内でUTC時間と都市の現地時間を求める処理は一切行われない。
 Getメソッドを実行すると、SetTimeZoneメソッド、GetUTCTimeStringメソッド、GetLocalTimeStringメソッドが実行時に求めた現地時間の年、月、日、曜日、時、分、秒、ミリ秒が取得可能である。)
 
