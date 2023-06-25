@@ -71,7 +71,7 @@ const LocalTime = (function() {
     my.city.set("FEN", [-2, "UTC - 2", "No.42", "ブラジル / フェルナンド・デ・ノローニャ諸島", "Brazil / Fernando de Noronha"]);
     my.city.set("PDL", [-1, "UTC - 1", "No.43", "ポルトガル領 / アゾレス諸島", "Portuguese / Azores"]);
 
-    //時差の計算をする
+    //UTC時間と設定した都市の現地時間の計算をする
     my.Calculate = function() {
 
         const GetTimeString = function(TimeZone, map) {
@@ -277,7 +277,7 @@ const LocalTime = (function() {
 
         let ret = (my.lang === "JP") ? "ERROR:TimeZoneが設定されていません。" : "ERROR:TimeZone is not set.";
 
-        //時差の計算をする
+        //UTC時間と設定した都市の現地時間の計算をする
         my.Calculate();
 
         //my.TimeZoneに空文字以外の値が設定されていること。
@@ -294,7 +294,7 @@ const LocalTime = (function() {
 
         let ret = (my.lang === "JP") ? "ERROR:TimeZoneが設定されていません。" : "ERROR:TimeZone is not set.";
 
-        //時差の計算をする
+        //UTC時間と設定した都市の現地時間の計算をする
         my.Calculate();
 
         //my.TimeZoneに空文字以外の値が設定されていること。
@@ -387,7 +387,7 @@ const LocalTime = (function() {
         //strが空文字ではないこと、かつmap形式のcityが持つ値と同じであること。
         if (str !== "" && my.city.has(str)) {
             my.TimeZone = str;
-            //時差の計算をする
+            //UTC時間と設定した都市の現地時間の計算をする
             my.Calculate();
         } else {
             const msg = (my.lang === "JP") ? "ERROR:TimeZoneの文字列が間違っています。" : "ERROR:The TimeZone string is incorrect.";
