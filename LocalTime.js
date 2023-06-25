@@ -71,7 +71,7 @@ const LocalTime = (function() {
     my.city.set("FEN", [-2, "UTC - 2", "No.42", "ブラジル / フェルナンド・デ・ノローニャ諸島", "Brazil / Fernando de Noronha"]);
     my.city.set("PDL", [-1, "UTC - 1", "No.43", "ポルトガル領 / アゾレス諸島", "Portuguese / Azores"]);
 
-    //UTC時間と設定した都市の現地時間の計算をする
+    //UTC時間と設定した都市の現地時間の計算をする。
     my.Calculate = function() {
 
         const GetTimeString = function(TimeZone, map) {
@@ -106,7 +106,7 @@ const LocalTime = (function() {
 
             let map = new Map();
 
-            //toISOString()メソッドで現在時刻をISO 8601形式のUTC表現にした値を引数tとする
+            //toISOString()メソッドで現在時刻をISO 8601形式のUTC表現にした値を引数tとする。
             //tの例2023-04-15T03:35:45.794
             //「年」、「月」、「日」、「時」、「分」、「秒」、「ミリ秒」に分解してmapに格納する。
 
@@ -140,7 +140,7 @@ const LocalTime = (function() {
 
             return map;
 
-        }; //splitUTCの終わり
+        }; //splitUTCの終わり。
 
         const CalLocalTime = function(map, TimeZone) {
 
@@ -199,14 +199,14 @@ const LocalTime = (function() {
 
             }
 
-        }; //CalLocalTimeの終わり
+        }; //CalLocalTimeの終わり。
 
         const date = new Date();
 
         //今日の現在時刻(ISO形式)
         let today = date.toISOString();
 
-        //LocalTimeを一時的に格納する
+        //LocalTimeを一時的に格納する。
         let map = new Map();
 
         //今日の曜日
@@ -228,7 +228,7 @@ const LocalTime = (function() {
         map.set("ss", this.TodayDate.get("Today_ss"));
         map.set("msec", this.TodayDate.get("Today_msec"));
 
-        //my.UTCTimeStringを設定する
+        //my.UTCTimeStringを設定する。
         this.UTCTimeString = GetTimeString("UTC", map);
 
         //昨日の現在時刻(ISO形式)
@@ -244,7 +244,7 @@ const LocalTime = (function() {
         //LocalTimeを計算する。
         CalLocalTime.call(my, map, this.TimeZone);
 
-        //my.LocalTimeStringを設定する
+        //my.LocalTimeStringを設定する。
         this.LocalTimeString = GetTimeString(this.TimeZone, map);
 
         //that.get("〇〇")で取得する値を設定する。
@@ -271,13 +271,13 @@ const LocalTime = (function() {
         this.LocalTime.set("Seconds", map.get("ss"));
         this.LocalTime.set("Milliseconds", map.get("msec"));
 
-    }; //my.Calculateの終わり
+    }; //my.Calculateの終わり。
 
     that.GetLocalTimeString = function() {
 
         let ret = (my.lang === "JP") ? "ERROR:TimeZoneが設定されていません。" : "ERROR:TimeZone is not set.";
 
-        //UTC時間と設定した都市の現地時間の計算をする
+        //UTC時間と設定した都市の現地時間の計算をする。
         my.Calculate();
 
         //my.TimeZoneに空文字以外の値が設定されていること。
@@ -294,7 +294,7 @@ const LocalTime = (function() {
 
         let ret = (my.lang === "JP") ? "ERROR:TimeZoneが設定されていません。" : "ERROR:TimeZone is not set.";
 
-        //UTC時間と設定した都市の現地時間の計算をする
+        //UTC時間と設定した都市の現地時間の計算をする。
         my.Calculate();
 
         //my.TimeZoneに空文字以外の値が設定されていること。
@@ -353,7 +353,7 @@ const LocalTime = (function() {
         //LocalTimeの「タイムゾーン」、「時差」、「年」、「月」、「日」、「時」、「分」、「秒」、「ミリ秒」を取得する。
         let ret = (my.lang === "JP") ? "ERROR:TimeZoneが設定されていません。" : "ERROR:TimeZone is not set.";
 
-        //strはmy.TimeZoneが空文字ではないこと、かつmap形式のLocalTimeが持つ値と同じ値であること
+        //strはmy.TimeZoneが空文字ではないこと、かつmap形式のLocalTimeが持つ値と同じ値であること。
         if (my.TimeZone !== "") {
             if (my.LocalTime.has(str)) {
                 ret = my.LocalTime.get(str);
@@ -387,7 +387,7 @@ const LocalTime = (function() {
         //strが空文字ではないこと、かつmap形式のcityが持つ値と同じであること。
         if (str !== "" && my.city.has(str)) {
             my.TimeZone = str;
-            //UTC時間と設定した都市の現地時間の計算をする
+            //UTC時間と設定した都市の現地時間の計算をする。
             my.Calculate();
         } else {
             const msg = (my.lang === "JP") ? "ERROR:TimeZoneの文字列が間違っています。" : "ERROR:The TimeZone string is incorrect.";
