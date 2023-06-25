@@ -29,7 +29,7 @@ When the Get method is executed, the year, month, day, weekday, hour, minute, se
 This local time is exactly the same local time obtained when executing the SetTimeZone method or the GetUTCTimeString method or the GetLocalTimeString method before executing the Get method.
 
 (SetTimeZoneメソッド、GetUTCTimeStringメソッド、GetLocalTimeStringメソッドを実行する際は、必ずLocalTimeモジュール内でUTC時間と設定した都市の現地時間を求める処理が実行される。  
-一方、Getメソッドを実行する際は、LocalTimeモジュール内でUTC時間と都市の現地時間を求める処理は一切行われない。Getメソッドを実行すると、現地時刻の年、月、日、曜日、時、分、秒、ミリ秒を取得することができる。この現地時刻は、Getメソッド実行前に、SetTimeZoneメソッドまたはGetUTCTimeStringメソッドまたはGetLocalTimeStringメソッドを実行時に求めた現地時刻と全く同じ現地時刻である。
+一方、Getメソッドを実行する際は、LocalTimeモジュール内でUTC時間と都市の現地時間を求める処理は一切行われない。Getメソッドを実行すると、現地時刻の年、月、日、曜日、時、分、秒、ミリ秒を取得することができる。この現地時刻は、Getメソッド実行前に、SetTimeZoneメソッドまたはGetUTCTimeStringメソッドまたはGetLocalTimeStringメソッドを実行時に求めた現地時刻と全く同じ現地時刻である。)
 
 ```shell
 //Set the city.
